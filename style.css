@@ -116,7 +116,7 @@ ul li a:hover {
   color: #00d2df;
 
   font-size: 4.5rem;
-  line-height: 3.9rem;
+  line-height: 4.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
@@ -236,6 +236,7 @@ ul li a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
