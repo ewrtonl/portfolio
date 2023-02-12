@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Dev | Ewerton Luís</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <header id="header">
+      <a class="logo" href="#home">Portfolio</a>
+
+      <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <span id="hamburger"></span>
+        </button>
+        <ul role="menu">
+          <li>
+            <a onclick="closeMenu()" href="#home">Sobre</a>
+          </li>
+
+          <li>
+            <a onclick="closeMenu()" href="#skills">Skills</a>
+          </li>
+
+          <li>
+            <a onclick="closeMenu()" href="#projects">Projetos</a>
+          </li>
+      </nav>
+    </header>
+
+    <section id="home" class="home">
+      <div class="texts">
+        <h1>Ewerton Luís</h1>
+        <h2>Front-end Developer</h2>
+        <p id="motion-text">Always creating and developing.</p>
+      </div>
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/ewertonluis28/" target="_blank">
+          <button>
+            <img src="./assets/linkedln.svg" alt="LinkedIn" />
+            LinkedIn
+          </button>
+        </a>
+
+        <a href="https://github.com/ewrtonl" target="_blank">
+          <button>
+            <img src="./assets/github.svg" alt="GitHub" />
+            GitHub
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about-me">
+      <div class="about-box">
+        <h3>Sobre</h3>
+        
+        <div class="about-content">
+          
+          <div class="about-div1">
+            <img src="./assets/Component.png" alt="Desenho de um homem no computador">
+          </div>
+
+          <div class="about-div2">
+            <p>
+              Nunca me canso de buscar novos conhecimentos, cresci com a tecnologia e hoje faço dela a minha paixão. Desde que descobri o desenvolvimento web, sempre busquei me atualizar nas tecnologias e esse aprendizado continuo da programação é algo que motiva constantemente.
+            </p>
+  
+            <div class="contact">
+              <a id="wpp" href="https://wa.me/+5575999690156" target="_blank">
+                <button>
+                  <img src="./assets/icons8-whatsapp.svg" alt="Whatsapp" />
+                </button>
+              </a>
+  
+              <a id="insta" href="https://www.instagram.com/ewrtonl/" target="_blank">
+                <button>
+                  <img src="./assets/icons8-instagram.svg" alt="Instagram" />
+                </button>
+              </a>
+  
+              <a id="email" href="https://mail.google.com/mail/?view=cm&fs=1&to=ewerton.lu8659@gmail.com" target="_blank">
+                <button>
+                  <img src="./assets/icons8-gmail-logo.svg" alt="Email" />
+                </button>
+              </a>
+
+              <a id="cv" href="#" download target="_blank">
+                <button>
+                  <img src="./assets/download.svg" alt="" />
+                  Download CV
+                </button>
+              </a>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h3>Skills</h3>
+      <div class="skills-box">
+        <div id="html">
+          <img src="./assets/html5.svg" alt="HTML5" />
+        </div>
+        <div id="css">
+          <img src="./assets/css3.svg" alt="CSS3" />
+        </div>
+        <div id="js">
+          <img src="./assets/javascript.svg" alt="Javascript" />
+        </div>
+        <div id="react">
+          <img src="./assets/react.svg" alt="ReactJS" />
+        </div>
+        <div id="node">
+          <img src="./assets/node-js.svg" alt="NodeJS" />
+        </div>
+        <div id="styled">
+          <img src="./assets/styled-components.svg" alt="NodeJS" />
+        </div>
+        <div id="git">
+          <img src="./assets/git.svg" alt="Git/Github" />
+        </div>
+        <div id="figma">
+          <img src="./assets/figma.svg" alt="Figma" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h3>Projetos em destaque</h3>
+      <div class="projects-box">
+
+        <div class="project">
+          <img src="./assets/myfinances.png" alt="Screenshot do projeto" />
+          <h4>💸 MyFinances</h4>
+          <p>
+            A simple way to organize your finances.
+          </p>
+
+          <div class="tags">
+            <p>ReactJS</p>
+            <p>JavaScript</p>
+            <p>Styled-Components</p>
+            <p>Vite</p>
+          </div>
+
+          <a href="https://my-finances-zeta.vercel.app/" target="_blank">
+            <button>
+              <img src="./assets/link.svg" alt="" />
+              View
+            </button>
+          </a>
+        </div>
+        
+        <div class="project">
+          <img src="./assets/moviepicker.png" alt="Screenshot do projeto" />
+          <h4>📺 MoviePicker</h4>
+          <p>
+            Random movie generator.
+          </p>
+
+          <div class="tags">
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>JavaScript</p>
+            <p>API</p>
+          </div>
+
+            <a href="https://ewrtonl.github.io/moviepicker/" target="_blank">
+              <button>
+                <img src="./assets/link.svg" alt="" />
+                View
+              </button>
+            </a>
+        </div>
+
+        <div class="project">
+          <img src="./assets/calculator.png" alt="Screenshot do projeto" />
+          <h4>🎲 Calculator</h4>
+          <p>
+            Online calculator for quick calculations.
+          </p>
+
+          <div class="tags">
+            <p>ReactJS</p>
+            <p>JavaScript</p>
+            <p>Styled-Components</p>
+            <p>Vite</p>
+          </div>
+
+          <a href="https://calculator-amber-omega.vercel.app/" target="_blank">
+            <button>
+              <img src="./assets/link.svg" alt="" />
+              View
+            </button>
+          </a>
+        </div>
+
+        <div class="project">
+          <img src="./assets/focustimer.png" alt="Screenshot do projeto" />
+          <h4>⏲ FocusTimer</h4>
+          <p>
+            A simple Pomodoro Timer website.
+          </p>
+
+          <div class="tags">
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>JavaScript</p>
+          </div>
+
+          <a href="https://ewrtonl.github.io/focustimer/" target="_blank">
+            <button>
+              <img src="./assets/link.svg" alt="" />
+              View
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="see-more">
+        <a target="_blank" href="https://github.com/ewrtonl?tab=repositories">
+          Veja mais projetos no GitHub
+          <img src="./assets/arrow-right.svg" alt="">
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Site developed by Ewerton · 2023</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
